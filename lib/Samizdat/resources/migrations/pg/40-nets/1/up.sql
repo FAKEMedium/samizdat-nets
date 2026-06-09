@@ -1,4 +1,3 @@
--- 1 up
 -- Nets Payment Integration Schema
 -- Documentation: https://developer.nexigroup.com/nexi-checkout/en-EU/docs/
 
@@ -121,6 +120,3 @@ COMMENT ON TABLE nets.webhook_log IS 'Audit log of webhook events from Nets';
 COMMENT ON COLUMN nets.webhook_log.verified IS 'Whether source IP matches Nets webhook origin CIDR';
 
 COMMENT ON TABLE nets.refunds IS 'Refund operations for Nets payments';
-
--- 1 down
-DROP SCHEMA IF EXISTS nets CASCADE;

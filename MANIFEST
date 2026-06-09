@@ -16,6 +16,8 @@ lib/Samizdat/resources/locale/nets/ru/nets.po
 lib/Samizdat/resources/locale/nets/sv/nets.po
 lib/Samizdat/resources/locale/nets/zh/nets.po
 lib/Samizdat/resources/migrations/pg/40-nets.sql
+lib/Samizdat/resources/migrations/pg/40-nets/1/down.sql
+lib/Samizdat/resources/migrations/pg/40-nets/1/up.sql
 lib/Samizdat/resources/settings/nets/schema.yml
 lib/Samizdat/resources/templates/nets/cancel/index.html.ep
 lib/Samizdat/resources/templates/nets/index.html.ep
