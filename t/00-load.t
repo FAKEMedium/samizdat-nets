@@ -12,5 +12,5 @@ my $schema = eval { LoadFile(File::Spec->catfile($d,'settings','nets','schema.ym
 ok(ref $schema eq 'HASH', 'nets settings schema loads')
   and is($schema->{'x-samizdat-audience'}, 'operator', 'audience is operator');
 ok(-d File::Spec->catdir($d,'templates','nets'), 'nets templates ship');
-ok(scalar(glob(File::Spec->catfile($d,'migrations','pg','*-nets.sql'))), 'nets pg migration ships');
+ok(scalar(glob(File::Spec->catfile($d,'migrations','pg','*-nets','*','up.sql'))), 'nets pg migration ships');
 done_testing;
